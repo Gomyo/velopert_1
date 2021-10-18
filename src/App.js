@@ -1,12 +1,8 @@
 import React from 'react'
-import MyComponentFunc from './MyComponentFunc'
+import Say from './Say'
 
 const App = () => {
-  return (
-    <MyComponentFunc name="name" favoriteNumber={1}>
-      칠드런
-    </MyComponentFunc>
-  )
+  return <Say />
 }
 
 export default App
